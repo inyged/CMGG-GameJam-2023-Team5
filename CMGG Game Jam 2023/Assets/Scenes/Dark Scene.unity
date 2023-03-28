@@ -2105,6 +2105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 988604118}
+  - component: {fileID: 988604119}
   m_Layer: 0
   m_Name: Collectibles
   m_TagString: Untagged
@@ -2132,6 +2133,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &988604119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988604117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac11feebd1f2bc14fb782f303f1b5340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemData: {fileID: 0}
+  inventory: {fileID: 0}
 --- !u!1 &1014367657
 GameObject:
   m_ObjectHideFlags: 0
@@ -2899,8 +2914,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac11feebd1f2bc14fb782f303f1b5340, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  memories: 0
   itemData: {fileID: 0}
+  inventory: {fileID: 0}
 --- !u!1 &1322298955
 GameObject:
   m_ObjectHideFlags: 0
@@ -3176,8 +3191,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac11feebd1f2bc14fb782f303f1b5340, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  memories: 0
   itemData: {fileID: 0}
+  inventory: {fileID: 0}
 --- !u!1 &1468807480
 GameObject:
   m_ObjectHideFlags: 0
@@ -3432,8 +3447,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac11feebd1f2bc14fb782f303f1b5340, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  memories: 0
   itemData: {fileID: 0}
+  inventory: {fileID: 0}
 --- !u!1 &1511321990
 GameObject:
   m_ObjectHideFlags: 0
@@ -4428,8 +4443,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac11feebd1f2bc14fb782f303f1b5340, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  memories: 0
   itemData: {fileID: 0}
+  inventory: {fileID: 0}
 --- !u!1001 &2067839560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4524,8 +4539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac11feebd1f2bc14fb782f303f1b5340, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  memories: 0
   itemData: {fileID: 0}
+  inventory: {fileID: 0}
 --- !u!1 &2113241013
 GameObject:
   m_ObjectHideFlags: 0
@@ -4769,11 +4784,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9202567156757410992, guid: 80e20fff99c45764488f8ce7efba453c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 259.6
+      value: 117.6
       objectReference: {fileID: 0}
     - target: {fileID: 9202567156757410992, guid: 80e20fff99c45764488f8ce7efba453c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 127.3
+      value: 47.1
       objectReference: {fileID: 0}
     - target: {fileID: 9202567156757410992, guid: 80e20fff99c45764488f8ce7efba453c, type: 3}
       propertyPath: m_LocalPosition.z

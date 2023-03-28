@@ -2,28 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InventoryItem : MonoBehaviour {
-
+public class InventoryItem : MonoBehaviour
+{
     public ItemData itemData;
-    [SerializeField] public int memories = 0;
-    
-    
+    [SerializeField] Inventory inventory = null;
+
     public InventoryItem(ItemData item)
     {
         itemData = item;
     }
-    //public int GetMemories { get => memories; }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        memories = 0;
         if (collision.gameObject.CompareTag("Player"))
         {
+            Inventory.UpdateMemories();
             Destroy(this.gameObject);
-            memories++;
-            Debug.Log("Memory Collected: " + memories);
+            Debug.Log("Memory Collected: " + Inventory.memories);
         }
     }
-
-    // add memories function
-    //public void AddItem(GameObject itemToAdd) { items.Add(itemToAdd); }
 }
