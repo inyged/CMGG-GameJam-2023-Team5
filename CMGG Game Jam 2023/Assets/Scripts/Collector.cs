@@ -15,4 +15,5 @@ public class Collector : MonoBehaviour
             collectible.Collect();
         }
     }
+
 }
