@@ -36,7 +36,7 @@ public class MemorySceneLoad : MonoBehaviour
 		}
 		else
         {
-			Debug.Log("This object does not have the proper scene assigned.")
+			Debug.Log("This object does not have the proper scene assigned.");
         }
 	}
 }
