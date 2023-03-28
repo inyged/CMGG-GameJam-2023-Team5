@@ -2,12 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Inventory : ScriptableObject {
 
-    [SerializeField] int memories = 0;
-    public int GetMemories { get => memories; }
-    public void UpdateMemories(int numberOfMemories) { memories => numberOfMemories; }
-    // add memories function
-    //public void AddItem(GameObject itemToAdd) { items.Add(itemToAdd); }
+public class Inventory : MonoBehaviour 
+{
+    public List<InventoryItem> inventory;
 
+    //private void OnEnable()
+    //{
+    //    Memory.OnMemoryCollected += Add();
+    //}
+
+    public void Add(ItemData itemData)
+    {
+        //Inventory.Add(newItem);
+        //Debug.Log($"{item.itemData.displayName} total stack is now {item.stackSize}");
+    }
 }

@@ -1471,8 +1471,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1255350462}
   - component: {fileID: 1255350461}
+  - component: {fileID: 1255350463}
   m_Layer: 0
-  m_Name: Particle
+  m_Name: Memory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1538,13 +1539,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255350460}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.27, y: -2.12, z: 0}
+  m_LocalPosition: {x: 15.19, y: -1.15, z: 0}
   m_LocalScale: {x: 0.5776905, y: 0.5776905, z: 0.7702541}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1255350463
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255350460}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.083308175, y: -0.520673}
+  serializedVersion: 2
+  m_Radius: 2.0378675
 --- !u!1 &1322298955
 GameObject:
   m_ObjectHideFlags: 0
