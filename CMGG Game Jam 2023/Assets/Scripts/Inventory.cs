@@ -14,7 +14,7 @@ public class Inventory : MonoBehaviour
 
     public void Add(ItemData itemData)
     {
-        //Inventory.Add(newItem);
+        Inventory.Add(newItem);
         //Debug.Log($"{item.itemData.displayName} total stack is now {item.stackSize}");
     }
 }

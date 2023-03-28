@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Collector : MonoBehaviour
 {
-
+    private int memories;
     //[SerializeField] Inventory inventory = null;
     private void OnTriggerEnter2D(Collider2D collision)
     {
