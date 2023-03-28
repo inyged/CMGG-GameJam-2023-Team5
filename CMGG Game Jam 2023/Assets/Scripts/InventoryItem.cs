@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class InventoryItem : MonoBehaviour {
 
-    [SerializeField] public int memories;
     public ItemData itemData;
-    //public int memories;
-
+    [SerializeField] public int memories = 0;
+    
+    
     public InventoryItem(ItemData item)
     {
         itemData = item;
@@ -15,6 +15,7 @@ public class InventoryItem : MonoBehaviour {
     //public int GetMemories { get => memories; }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        memories = 0;
         if (collision.gameObject.CompareTag("Player"))
         {
             Destroy(this.gameObject);
