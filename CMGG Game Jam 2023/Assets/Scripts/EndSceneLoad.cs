@@ -11,7 +11,7 @@ public class EndSceneLoad : MonoBehaviour
 	{
 		Debug.Log("Finding scene...");
 
-		if (Inventory.getMemories() = 5)
+		if (Inventory.GetMemories() = 5)
 		{
 			SceneManager.LoadScene("Memory1");
 			Debug.Log("Scene Found");
